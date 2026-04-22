@@ -1,0 +1,27 @@
+{
+  "name": "smart-solar-optimizer",
+  "version": "1.0.0",
+  "description": "Smart Solar Optimizer Backend",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "@influxdata/influxdb-client": "^1.35.0",
+    "@prisma/client": "^5.12.1",
+    "axios": "^1.6.8",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "helmet": "^7.1.0",
+    "modbus-serial": "^8.0.25",
+    "morgan": "^1.10.0",
+    "mqtt": "^5.5.0",
+    "node-cache": "^5.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0",
+    "prisma": "^5.12.1"
+  }
+}
